@@ -1,0 +1,13 @@
+input[type = "text"]{
+    color:black;
+    background-color:aliceblue;
+}
+/*a[href *= "google"]{
+    color:red;
+}*/
+a[href ^= "https"]{
+    color:blue;
+}
+/*a[href $=".com"]{
+    color:red;
+}*/
