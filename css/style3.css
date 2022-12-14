@@ -1,0 +1,19 @@
+/* SPECIFICITY: inline style attribute > id selector > class selector > element selector*/
+h1{
+    color:red;
+}
+.h1class{
+    color:green;
+}
+.heading{
+    color:magenta;
+}
+/* in case of two classes, the latest class selector will get the most preference/
+
+/* #h1id{
+    color:blue;
+}*/
+
+
+
+/* writing !important give the maximum specificity to any selector*/
